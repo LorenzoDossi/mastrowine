@@ -1,0 +1,25 @@
+footer {
+    padding: 16px;
+    background-color: rgb(63, 85, 137);
+
+    img {
+    }
+    .block {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            color: #fff;
+            li {
+                line-height: 25px;
+            }
+        }
+
+        .right {
+            text-align: right;
+        }
+    }
+}

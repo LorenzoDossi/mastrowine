@@ -5,3 +5,9 @@
  */
 
 // You can delete this file if you're not using it
+const transitionDelay = 250
+
+exports.shouldUpdateScroll = () => false
+
+exports.onRouteUpdate = () =>
+  window.setTimeout(() => window.scrollTo(0, 0), transitionDelay)

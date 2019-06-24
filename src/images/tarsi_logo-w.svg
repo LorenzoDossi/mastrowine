@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="239" height="62" viewBox="0 0 239 62">
+  <defs>
+    <clipPath id="clip-custom_1">
+      <rect width="239" height="62"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="239" height="62" fill="none"/>
+    <g id="Group_4" data-name="Group 4">
+      <g id="tarsi_logo" transform="translate(-3.02 -5)">
+        <g id="Group_1" data-name="Group 1" transform="translate(16.599 27.221)">
+          <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="19.679" cy="19.575" rx="19.679" ry="19.575" transform="translate(0.508 0.508)" fill="#f7941d"/>
+          <path id="Path_1" data-name="Path 1" d="M76.617,132.569A20.085,20.085,0,1,1,96.8,112.483,20.16,20.16,0,0,1,76.617,132.569Zm0-39.152a19.068,19.068,0,1,0,19.17,19.066A19.139,19.139,0,0,0,76.617,93.417Z" transform="translate(-56.43 -92.4)" fill="#fff"/>
+        </g>
+        <g id="Group_2" data-name="Group 2" transform="translate(26.179 5)">
+          <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="19.679" cy="19.575" rx="19.679" ry="19.575" transform="translate(0.508 0.506)" fill="#3687ba"/>
+          <path id="Path_2" data-name="Path 2" d="M114.3,45.166a20.083,20.083,0,1,1,20.187-20.083A20.159,20.159,0,0,1,114.3,45.166Zm0-39.152a19.066,19.066,0,1,0,19.17,19.066A19.139,19.139,0,0,0,114.3,6.014Z" transform="translate(-94.11 -5)" fill="#fff"/>
+        </g>
+        <g id="Group_3" data-name="Group 3" transform="translate(3.02 7.248)">
+          <path id="Path_3" data-name="Path 3" d="M38.278,37.479a19.759,19.759,0,0,1,5.878.89A19.687,19.687,0,1,0,18.821,54.109,19.651,19.651,0,0,1,38.278,37.479Z" transform="translate(-4.512 -15.339)" fill="#36b991"/>
+          <path id="Path_4" data-name="Path 4" d="M17.744,53.271l-.564-.175A20.1,20.1,0,1,1,43.395,33.923a20.035,20.035,0,0,1-.229,3.02l-.089.585-.564-.175a19.284,19.284,0,0,0-18.288,3.793A19.026,19.026,0,0,0,17.83,52.684ZM23.21,14.857a19.055,19.055,0,0,0-6.282,37.085A20.168,20.168,0,0,1,36.789,35.469a20.306,20.306,0,0,1,5.456.742A19.07,19.07,0,0,0,23.21,14.857Z" transform="translate(-3.02 -13.84)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="TARSÌ" transform="translate(68 49)" fill="#fff" font-size="55" font-family="Times-Roman, Times"><tspan x="0" y="0">TARSÌ</tspan></text>
+    </g>
+  </g>
+</svg>

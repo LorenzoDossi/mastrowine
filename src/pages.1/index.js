@@ -1,13 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
 import SEO from "../components/seo"
-import Home from '../components/home'
+import Page from '../components/page'
 
 const IndexPage = () => (
-  <div>
+  <>
     <SEO title="Home" />
-    <Home />
-  </div>
+    <Page/>
+  </>
 )
 
 export default IndexPage

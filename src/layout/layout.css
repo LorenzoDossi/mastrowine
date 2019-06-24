@@ -1,0 +1,48 @@
+
+
+@import '../../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900|Quattrocento+Sans:700&display=swap');
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+*   {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+a,
+p,
+h1 {
+    color: #333;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-family: 'Merriweather';
+    font-size: 52px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.heading-p {
+    font-size: 24px;
+}
+
+a:hover {
+    color: #888;
+    text-decoration: none;
+}
+
