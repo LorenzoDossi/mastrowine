@@ -1,36 +1,44 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
+import { FaTwitter } from 'react-icons/fa'
+import { FaFacebookF } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+
 import footerStyles from './footer.module.scss'
-import logo from '../images/tarsi_logo-w.svg'
+import logo from '../images/logo.svg'
 
 const Footer = () => (
   <footer className={footerStyles.footer}>
-      <div className={footerStyles.logo}>
-          <img src={logo} alt="tarsi"/>
+    <div className="row">
+      <div className="col px-0">
+        <div className={footerStyles.contact}>
+          <div className={footerStyles.innerContact}>
+            <h1>get in touch</h1>
+            <h2>We make wine with a thought of our customers, therefore the team</h2>
+            <h3>address</h3>
+            <p>3867 Robinson Road, Historic Oaklawn Plantation</p>
+            <h3>Telephone</h3>
+            <p>3407877625</p>
+            <h3>E-mail</h3>
+            <p>info@mastrowine.com</p>
+          </div>
+        </div>
+        <div className={footerStyles.social}>
+          <img src={logo} alt=""/>
+          <div className={footerStyles.socialLink}>
+            <FaTwitter />
+            <FaFacebookF />
+            <FaInstagram />
+          </div>
+        </div>  
+        <div className={footerStyles.credits}>
+          <p>Open Monday-Friday 7am-4pm</p>
+          <p>Via Brescia 17, Desenzano D/G</p>
+          <p>555.344.3447</p>
+        </div>
       </div>
-    <div className={footerStyles.block}>
-    <section> 
-        <ul className={footerStyles.left}>
-            <li>Email info@tarsi.it</li>
-            <li>Telefono +39 030 991 1141</li>
-            <li>Sede Operativa Via Brescia 52, Desenzano del Garda (BS)</li>
-            <li>Sede Legale Viale Andreis 74, Desenzano del Garda (BS)</li>
-        </ul>
-    </section>
-    <section>
-        <ul className={footerStyles.right}>
-            <li></li>
-            <li>Tarsì Srls</li>
-            <li>P.I. e C.F. 03709220986</li>
-            <li>R.E.A. 556403</li>
-            <li>©2019 Copyright Tarsì Srls</li>
-            <li>Privacy Policy Cookie Policy</li>
-        </ul>
-    </section>
     </div>
-
   </footer>
 )
 

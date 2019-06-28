@@ -16,7 +16,7 @@ const TemplateWrapper = ({ children, location }) => (
         { name: `keywords`, content: `sample, something` },
       ]}
     />
-    <div className="container-fluid px-0">
+    <div className="container-fluid pr-0 pl-0">
       <Header />
         <Transition location={location}>{children}</Transition>
       <Footer />
